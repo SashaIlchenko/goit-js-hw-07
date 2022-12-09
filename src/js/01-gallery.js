@@ -1,7 +1,7 @@
 import { galleryItems } from './gallery-items.js';
 
 // Change code below this line
-const containerGallery = document.querySelector('.js-gallery');
+const containerGallery = document.querySelector('.gallery');
 const galleryMarkup = createGalleryMarkUp(galleryItems);
 containerGallery.insertAdjacentHTML('beforeend', galleryMarkup);
 containerGallery.addEventListener('click', onItemClick);
